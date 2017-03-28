@@ -1,0 +1,1427 @@
+
+
+.contenedor{
+    margin: 0 auto;
+    width: 100%;
+    border: 0px solid red;
+
+}
+    
+body {
+    background: url("../img/pentagon2.jpg");          
+}
+    
+
+
+/***************** ESTILOS ******************/
+
+.operaciones a {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+
+.titulos{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 40px;
+    font-family: 'Baloo', cursive;
+    font-size: 2em;
+    font-weight: lighter;
+
+    
+}
+
+
+.titulos2{
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-family: 'Baloo', cursive;
+    font-size: 1.1em;
+    font-weight: lighter;
+    color: white;
+
+    
+}
+
+
+
+.texto{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3;
+}
+
+.boton{
+    background-color: white;
+    border:3px solid #31c28f;
+    padding: 10px;
+    color: #31c28f;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    cursor:pointer;
+
+}
+
+.boton:hover{
+    background: #31c28f;
+    border:3px solid #31c28f;
+    color:white;
+    
+
+}
+.boton-index{
+    background-color: #31c28f;
+    border:1px solid #35B085;
+    padding: 10px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    
+
+}
+
+.boton-index:hover{
+    background: white;
+    border:3px solid #31c28f;
+    color:#31c28f;
+    cursor:pointer;
+    
+
+}
+.boton-cliente{
+    width: 200px;
+    background-color: white;
+    border:3px solid #fb9a04;
+    padding: 10px;
+    color: #fb9a04;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    cursor:pointer;
+    margin-top: 100px;
+
+
+}
+
+.boton-cliente:hover{
+    background:  #fb9a04 ;
+    border:3px solid #fb9a04;
+    color:white;
+    
+
+}
+
+.boton-empresa{
+    background-color: white;
+    border:3px solid #bb83d2;
+    padding: 10px;
+    color: #bb83d2;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    cursor:pointer;
+
+}
+
+.boton-empresa:hover{
+    background: #bb83d2;
+    border:3px solid #bb83d2;
+    color:white;
+    
+
+}
+
+.centrar-texto{
+    text-align: center;   
+}
+
+
+.fondo-principal{
+    background-color:#CC2EFA;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fondo-cliente{
+    background-color: #FACC2E;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fondo-empresa{
+    background-color:#81F79F;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*************************TABLAS****************************/
+    
+div.tabla{
+       margin:0 auto;
+       width:75%; 
+        min-height:600px;
+    }    
+table {
+  margin:0 auto;
+  width:100%; 
+  border-style:hidden;
+  
+  
+  
+  
+}
+
+  th {
+    width: 100px;
+    text-align:center;
+    background: #31C28F;
+    background: -webkit-linear-gradient(top, #31C28F, #198861);
+    background: -moz-linear-gradient(top, #31C28F, #198861);
+    background: -ms-linear-gradient(top, #31C28F, #198861);
+    background: -o-linear-gradient(top, #31C28F, #198861);
+    background: linear-gradient(to bottom, #31C28F, #198861);
+    color:white;
+    font-size:1.25em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding:1em;
+    border-bottom:2px solid white;
+    border-right-style:hidden;
+     //border:1px solid black;
+  }
+
+
+  tr,td {
+      width: 100px;
+      text-align:center;
+      border-right-style:hidden;
+      border-bottom: 1px solid #c4cbcc;
+      font-size:1.1em;
+      //font-weight: bold;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      padding:1.25em;
+      color:#444;
+      
+    
+  }
+    
+    tr.acordeon{
+        background-color:#eee;
+        text-align:center;
+        
+    }
+    td.puja{
+        //text-align:right;
+    }
+    tr.acordeon:hover{
+        cursor:pointer;
+        background-color:#ddd;
+    }
+    
+
+ 
+    
+  input.Aceptar{
+
+    width:150px;
+    background-color: green;
+    border:3px solid green;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor:pointer;
+
+  }
+
+  input.Aceptar:hover{
+    background-color: white;
+    border:3px solid  green;
+    color:green;
+   }
+
+  
+
+
+/*input[type="button"].acepta-proyecto:hover{
+    background: white;
+    border:3px solid #31c28f;
+    color:#31c28f;
+    
+
+}*/
+
+  input.rechaza-proyecto{
+    width:150px;
+    background-color: red;
+    border:3px solid red;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor:pointer;
+  }
+
+   input.rechaza-proyecto:hover{
+    background-color: white;
+    border:3px solid red;
+    color:red;
+   }
+
+   input.Anular{
+    width:150px;
+    background-color: orange;
+    border:3px solid orange;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor:pointer;
+  }
+
+   input.Anular:hover{
+    background-color: white;
+    border:3px solid orange;
+    color:orange;
+   }
+
+
+/*input[type="button"]:hover {
+    cursor:pointer;
+    border:1px solid white;
+}*/
+
+
+
+
+
+
+/************* HEADER ***************/
+.header{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background: #31C28F;
+    background: -webkit-linear-gradient(top, #31C28F, #198861);
+    background: -moz-linear-gradient(top, #31C28F, #198861);
+    background: -ms-linear-gradient(top, #31C28F, #198861);
+    background: -o-linear-gradient(top, #31C28F, #198861);
+    background: linear-gradient(to bottom, #31C28F, #198861);
+    text-align: center;
+  
+    
+    
+}
+
+
+.logotipo{
+     color:white;
+    width: 25%;
+    float: left;
+    margin-left: 15%;
+
+}
+
+
+.logo{
+    
+    
+    float: left;
+    font-family: 'Baloo', cursive;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.iconologo{
+    
+    float: left;
+    width:  45px;
+    height: 45px;
+    padding: 0.1%;
+    margin-top: 2px;
+    
+}
+
+
+.menutop {
+    width: 40%;
+    float: right;
+    list-style: none;
+    font-family: 'Baloo', cursive;
+    font-size: 1.1em;
+    margin-right: 15%;
+    color:white;
+    
+    
+    
+}
+
+ul.menutop li a {
+    padding: .8em;
+    float: right;
+     color:white;
+    
+    
+}
+
+ul.menutop li a:hover {
+    
+    color: white;
+    background: black;
+    height: 20px;
+
+}
+
+/************* HEADER CLIENTE - EMPRESA ***************/
+.menuvertical{
+
+    float: right;
+    margin-right: -webkit-300px;
+    
+
+}
+
+.headercliente{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #fb9a04; 
+    background: -webkit-linear-gradient(top, #fb9a04  , #198861);
+    background: -moz-linear-gradient(top, #fb9a04  , #198861);
+    background: -ms-linear-gradient(top, #fb9a04  , #198861);
+    background: -o-linear-gradient(top, #fb9a04  , #198861);
+    background: linear-gradient(to bottom, #fb9a04  , #198861);
+    text-align: center;
+  
+    
+}
+
+.headerempresa{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color:#bb83d2  ;
+    background: -webkit-linear-gradient(top, #bb83d2, #198861);
+    background: -moz-linear-gradient(top, #bb83d2, #198861);
+    background: -ms-linear-gradient(top, #bb83d2, #198861);
+    background: -o-linear-gradient(top, #bb83d2, #198861);
+    background: linear-gradient(to bottom, #bb83d2, #198861);
+    text-align: center;
+    
+}
+
+
+.dropbtn {
+    color: white;
+    padding: 10px;
+    font-family: 'Baloo', cursive;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}
+
+.dropbtncliente {
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: white;
+    color: #fb9a04;
+    padding: 10px;
+    font-family: 'Baloo', cursive;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    
+}
+
+
+.dropbtncliente:hover {
+    background-color: #fb9a04 ;
+    color: white;
+
+}
+
+.dropbtnempresa {
+
+    background-color: white ;
+    color: #bb83d2;
+    padding: 10px;
+    font-family: 'Baloo', cursive;
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.dropbtnempresa:hover {
+     background-color: #bb83d2 ;
+    color: white;
+
+}
+
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.dropdown-content {
+    display: none;
+     font-family: 'Baloo', cursive;
+    font-size: 1em;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 200px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+/********PARA QUE EL FOOTER SIEMPRE ESTE ABAJO*************/
+html,
+body,#wrap {
+   height: 100%;
+   background-image: url('../img/slider01.jpg');
+}
+body > #wrap {
+   height: auto;
+   min-height: 100%;
+   //margin-bottom: 20px;
+}
+#content {
+   padding-bottom: 80px; /* Mis altura que el footer */
+
+} 
+#footer {
+   position: relative;
+  margin-top: 0px; /* Misma altura que el footer en negativo */
+   height: 80px; /* Altura del footer */
+   clear: both;
+   background-color: #177a57;
+   //margin-top: 0px;
+}
+
+
+/************* FOOTER ***************/
+
+
+#menu_mini{
+    width: 30%;
+    float: left;
+    margin-top: 5px;
+    border-right: 1px solid lightgrey;
+}
+
+
+#menu_mini2{
+    
+    height: 70px;
+    float: left;
+    margin-top: 3px;
+    border-left: 1px solid lightgrey;
+
+
+}
+
+
+
+#menu_mini2 p{
+    font-family: 'Baloo';
+    color: lightgrey;
+    font-size: 0.8em;
+    margin-left: 55px;
+    margin-top: 35px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+.menu_footer  {
+    margin: 0 auto;
+    font-family: 'Baloo';
+    color: lightgrey;
+    font-size: 0.8em;
+    width: 20%;
+    
+
+}
+
+.menu_footer li{
+    padding-top: 5px;
+    color: lightgrey;
+}
+
+.menu_footer li:hover{
+    color:black;
+}
+
+
+#creadores{
+    width: 40%;
+    float:left;
+    font-family: 'Baloo', cursive;
+    font-size: 1em;
+    color:white;
+    text-align: center;
+}
+
+
+
+.menu_social{
+   margin: 0 auto;
+   height: 20px;
+   width: 160px;
+   padding-top: 10px;
+  
+}
+
+
+.icono_redes1{
+    background-image: url("../img/icono_facebook.png");
+    background-repeat: no-repeat;
+    float:left;
+    width: 35px;
+    height: 35px;
+    margin-right:5px;
+}
+
+.icono_redes1:hover{
+    background-image: url("../img/icono_facebook_hover.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+    
+}
+
+.icono_redes2{
+    background-image: url("../img/icono_twitter.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+    margin-right:5px;
+}
+
+.icono_redes2:hover{
+    background-image: url("../img/icono_twitter_hover.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+    
+}
+
+.icono_redes3{
+    background-image: url("../img/icono_linkedin.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+    margin-right:5px;
+}
+
+.icono_redes3:hover{
+    background-image: url("../img/icono_linkedin_hover.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+    
+}
+
+.icono_redes4{
+    background-image: url("../img/icono_google_plus.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+    margin-right:5px;
+}
+
+.icono_redes4:hover{
+    background-image: url("../img/icono_google_plus_hover.png");
+    background-repeat: no-repeat;
+    float:left;
+     width: 35px;
+    height: 35px;
+  
+}
+
+
+
+
+.footer_creadores{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+/*********************************************************************/
+/*div.inicio-sesion{
+    text-align:center;
+
+}
+div.inicio-sesion h2{
+    font-size:2.5em;
+    font-style:bold;
+    margin:0.5%;
+}
+*/
+/*********************************************************************/
+/***********************FORMULARIOS***********************************/
+
+form{
+    text-align:center;
+    margin-top:1%;
+
+
+}
+
+
+input[type="text"]{
+    margin:0.25%;
+    width:25%;
+    height: 2em;
+     font-family: 'Baloo', cursive;
+    font-size: 1em;
+    
+    color: grey;
+
+}
+
+input[type="password"]{
+    margin:0.25%;
+    width:25%;
+    height: 2em;
+      font-family: 'Baloo', cursive;
+    font-size: 1em;
+    color:grey;
+}
+
+input[type="submit"]{
+    margin:0.25%;
+    width:15%;
+    //height:3.5em;
+}
+
+
+input[type="email"]{
+    margin:0.25%;
+    width:25%;
+    height: 2em;
+      font-family: 'Baloo', cursive;
+    font-size: 1em;
+    color:grey;
+}
+
+
+
+/****************** LOGIN **********************/
+
+
+
+
+form.login{
+    margin-top:1%;
+    width: 50%;
+}
+
+
+
+
+
+
+ input[type="text"].login{
+    margin:0.25%;
+    width:30%;
+    height: 2em;
+    //border: 2px solid #31c28f;
+
+}
+
+ input[type="password"].login{
+    margin:0.25%;
+    width:30%;
+    height: 2em;
+}
+
+input[type="submit"].login{
+    margin:0.25%;
+    width:30%;
+    height:2.8em;
+    margin-top: 10px;
+}
+
+input[type="email"].login{
+    margin:0.25%;
+    width:30%;
+    height:2em;
+    margin-top: 10px;
+}
+
+
+
+
+/******************* MIPERFIL ********************/
+label.texto{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: left;
+    display: block;
+    color:  #31c28f;
+}
+
+label.texto2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9em;
+    line-height: 1.3;
+    text-align: left;
+    color:white;
+  
+
+}
+label.texto3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 2.3;
+    text-align: right;
+    display: block;
+    color:  black;
+}
+
+.contenedor-miperfil1{
+    width: 50%;
+    float: left;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.contenedor-miperfil2{
+    margin-left: 15%;
+    width: 20%;
+    float: left;
+}
+
+.contenedor-miperfil3{
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    padding: 0 60px;
+    width: 60%;
+    height: 200px;
+    background-color: #31c28f;
+    border-radius: 20px;
+    float: left;
+
+}
+
+.contenedor-miperfil4{
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    padding-bottom: 60px;
+    //height: 180px;
+    background-color: #31c28f;
+    border-radius: 20px;
+   margin-top: 330px;
+
+}
+
+.columna1{
+    width: 47%;
+    float: left;
+    margin-left: 4%;
+
+}
+
+.columna2{
+    width: 47%;
+    float: right;
+
+}
+
+.columna3{
+    width: 45%;
+    float: left;
+}
+
+.columna3-2{
+    width: 45%;
+    float: right;
+}
+
+.columna4{
+    width: 100%;
+    
+}
+
+.label-informanager{
+    width:100%;
+    text-align:center;
+    margin-left:3%;
+    font-size: 20px;
+    
+}
+.label-informanager label{
+    margin-right:25%;
+}
+
+.input-infomanager{
+    width:100%;
+    margin-left:3%;
+
+}
+
+ input[type="text"].miperfil{
+
+    margin:0.25%;
+    width:85%;
+    height: 2em;
+
+}
+
+ input[type="text"].miperfil2{
+
+    margin-right:3% ;
+    margin-left: 3%;
+    margin-top: 1%;
+    width:25%;
+    height: 2em;
+    float: left;
+
+}
+
+
+
+ input[type="password"].miperfil{
+    margin:0.25%;
+    width:25%;
+    height: 2em;
+}
+
+input[type="submit"].miperfil{
+     margin: 0 auto;
+    margin-top: 15px!important;
+    width:25%;
+    height:3.5em;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+/******************* CONTACTO ********************/
+.epigrafe-contacto{
+ margin-top: -20px;
+ margin-left: 15%;
+}
+
+.estilo-contacto{
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+    border:0px solid red;
+
+
+}
+
+.estilo-contacto2{
+    width: 40%;
+    float: left;
+    border:0px solid blue;
+
+}
+
+.estilo-contacto2 textarea{
+    margin-top: 10px;
+    width: 60%;
+    height: 100px;
+    resize: none;
+    margin-left:30%;
+    font-family: 'Baloo', cursive;
+    font-size: 0.8em;
+    color: grey;
+
+}
+
+.estilo-contacto2 input[type="text"]{
+    width: 60%;
+    margin-left:30%;
+    margin-bottom:5px;
+    height: 2em;
+}
+
+.estilo-contacto2 input[type="submit"]{
+    margin-top: 10px;
+    margin-left:50%;
+    width:40%;
+    height:70px;
+    font-size: 25px;
+}
+
+/*******************NUEVO PROYECTO****************/
+div.nuevo-proyecto{
+    margin:0 auto;
+    width:75%;
+    text-align:center;
+}
+div.nuevo-proyecto h1{
+    font-size:2.5em;
+    font-style:bold;
+    margin:0.5%;
+    margin-bottom:5%;
+}
+div.nuevo-proyecto label{
+    float:right;
+    margin:1%;
+}
+div.nuevo-proyecto input[type="text"]{
+    float:left;
+    width:30%;
+}
+
+div.nuevo-proyecto legend{
+    font-size:1.2em;
+}
+
+div.nuevo-proyecto textarea{
+    width:99%;
+    height:15em; 
+    margin-top:2%;
+    margin-bottom:3%;
+    resize:none;
+    font-family: 'Baloo', cursive;
+    font-size: 0.8em;
+    color: grey;
+}
+
+input[type="button"].nuevo-proyecto {
+  background: #31C28F;
+  background-image: -webkit-linear-gradient(top, #31C28F, #198861);
+  background-image: -moz-linear-gradient(top, #31C28F, #198861);
+  background-image: -ms-linear-gradient(top, #31C28F, #198861);
+  background-image: -o-linear-gradient(top, #31C28F, #198861);
+  background-image: linear-gradient(to bottom, #31C28F, #198861);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input[type="button"].nuevo-proyecto:hover {
+  background: #31C28F;
+  text-decoration: none;
+}
+
+
+/*****************INPUT TYPE FECHA**************************/
+ 
+div.nuevo-proyecto input[type="text"].fecha{
+            background-image:url('../img/calendario.png');
+            background-position:right;
+            background-size: 8%;
+            background-repeat: no-repeat;
+            float:right;
+
+         }
+/*******************NUEVA PUJA****************/
+div.nueva-puja{
+    margin:0 auto;
+    width:75%;
+    text-align:center;
+}
+div.nueva-puja h1{
+    font-size:2.5em;
+    font-style:bold;
+    margin:0.5%;
+    margin-bottom:5%;
+}
+div.nueva-puja label{
+    float:right;
+    margin:1%;
+}
+div.nueva-puja input[type="text"]{
+    float:left;
+    width:30%;
+}
+
+div.nueva-puja input[type="number"]{
+    float:left;
+    height:40px;
+    font-size:20px;
+    width:30%;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    background-image:url('../img/euro.jpg');
+    background-size: 8%;
+    background-position:right;
+    background-repeat:no-repeat;
+    
+}
+
+div.nueva-puja textarea{
+    width:99%;
+    height:15em; 
+    margin-top:2%;
+    margin-bottom:3%;
+    resize:none;
+    font-family: 'Baloo', cursive;
+    font-size: 0.8em;
+    color: grey;
+}
+input[type="button"].nueva-puja {
+  background: #31C28F;
+  background-image: -webkit-linear-gradient(top, #31C28F, #198861);
+  background-image: -moz-linear-gradient(top, #31C28F, #198861);
+  background-image: -ms-linear-gradient(top, #31C28F, #198861);
+  background-image: -o-linear-gradient(top, #31C28F, #198861);
+  background-image: linear-gradient(to bottom, #31C28F, #198861);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input[type="button"].nueva-puja:hover {
+  background: #31C28F;
+  text-decoration: none;
+}
+
+
+/************************* MIS PUJAS***************************/
+.Aprobada{
+    color:green;
+}
+.Pendiente{
+    color:grey;
+}
+
+.Rechazada{
+    color:red;
+}
+
+/************************* MIS PROYECTOS***************************/
+.detalles{
+    font-size:0.85em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: grey;  
+}
+
+.detalles:hover{
+    background-color: green;
+    color: white;  
+    cursor: pointer;
+}
+
+.borrar{
+    font-size:0.85em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: grey;
+
+}
+.borrar:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+.retirarpuja{
+     font-size:0.85em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: grey;
+
+}
+
+.retirarpuja:hover{
+   //background-color:grey;
+    color: black;
+
+}
+
+
+.puja{
+     font-size:0.85em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: grey;
+
+}
+
+
+
+
+
+
+
+/*****************INPUT TYPE FECHA**************************/
+ 
+div.nueva-puja input[type="text"].fecha{
+            background-image:url('../img/calendario.png');
+            background-position:right;
+            background-size: 8%;
+            background-repeat: no-repeat;
+            float:right;
+
+         }
+
+/***********************REGISTRATE***********************/
+#t2itulo{
+    text-align:center;
+    font-size:2.5em;
+    margin:2%;
+}
+
+
+div#panel{
+   margin-left:18%; 
+   width:30%;
+   position:absolute
+    
+}
+div#contenido{
+    margin-left:30%;
+   
+   
+}
+div#contenido a{
+    color:blue;
+    text-decoration:underline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em; 
+}
+div#contenido input{
+    margin:0.5%;
+}
+div#contenido input[type="submit"]{
+    margin:2%;
+}
+
+/******************HOME******************/
+
+div#home{
+    margin:0 auto;
+    width:75%;
+    text-align:center;
+    
+
+    
+}
+
+
+div#home div.columna{
+    width:25%;
+    float:left;
+    padding-bottom:3%;
+    padding-left: 4%;
+    padding-right: 4%;
+       
+}
+
+div#home div.columna p{
+    text-align:left;
+    margin-bottom:2.5%;
+}
+
+
+div#home div.columna img{
+    height: 10em;
+    width:100%;
+    margin-bottom:2.5%;
+}*/
+
+div#home input[type="submit"]{
+    margin: 0 auto;
+    width:33%;
+    font-size:1.25em;
+    margin-bottom:50%;
+    position:absolute;
+}
+
+
+
+
+
+
+
+/***** MENSAJES ESTILOS ********/
+
+.msg-error{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    margin: 20px auto;
+    text-align: center;
+    color:white;
+    font-size:1.1em;
+    background-color:red;
+    padding:20px;
+    width: 30%; 
+}
+
+.msg-ok{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+     margin: 20px auto;
+    text-align: center;
+    color:white;
+    font-size:1.1em;
+    background-color:green;
+    padding:20px;
+    width: 30%; 
+}
+
+/*****DETALLE PROYECTO ****/
+div.detalle-proyecto{
+    margin:0 auto;
+    width:75%;
+    text-align:center;
+}
+/*div.detalle-proyecto h1{
+    font-size:2.5em;
+    font-style:bold;
+    margin:0.5%;
+    margin-bottom:5%;
+    */
+}
+div.detalle-proyecto label{
+    float:right;
+    margin:1%;
+}
+div.detalle-proyecto input[type="text"]{
+    float:left;
+    width:30%;
+}
+
+div.detalle-proyecto legend{
+    font-size:1.2em;
+}
+
+div.detalle-proyecto textarea{
+    width:99%;
+    height:15em; 
+    margin-top:2%;
+    margin-bottom:3%;
+    resize:none;
+    font-family: 'Baloo', cursive;
+    font-size: 0.8em;
+    color: grey;
+}
+
+
+div.detalle-proyecto input[type="button"]{
+  width:30%;  
+  background: #31C28F;
+  background-image: -webkit-linear-gradient(top, #31C28F, #198861);
+  background-image: -moz-linear-gradient(top, #31C28F, #198861);
+  background-image: -ms-linear-gradient(top, #31C28F, #198861);
+  background-image: -o-linear-gradient(top, #31C28F, #198861);
+  background-image: linear-gradient(to bottom, #31C28F, #198861);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+div.detalle-proyecto input[type="submit"]{
+  width:30%;  
+  background: #31C28F;
+  background-image: -webkit-linear-gradient(top, #31C28F, #198861);
+  background-image: -moz-linear-gradient(top, #31C28F, #198861);
+  background-image: -ms-linear-gradient(top, #31C28F, #198861);
+  background-image: -o-linear-gradient(top, #31C28F, #198861);
+  background-image: linear-gradient(to bottom, #31C28F, #198861);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+div.detalle-proyecto input[type="button"]:hover {
+  background: #31C28F;
+  cursor:pointer;
+}
+
+
+div.detalle-proyecto input[type="text"].estado{
+    width:10%;
+}
+/*****************INPUT TYPE FECHA**************************/
+ 
+div.detalle-proyecto input[type="text"].fecha{
+            background-image:url('../img/calendario.png');
+            background-position:right;
+            background-size: 8%;
+            background-repeat: no-repeat;
+            float:right;
+
+         }
+
